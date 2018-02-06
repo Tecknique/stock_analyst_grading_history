@@ -12,6 +12,12 @@ pip install pandas-datareader
 pip install tqdm
 ```
 
+## Introduction
+
+This project combines stock analyst firms upgrade and downgrade data of the snp500 tickers, and compares the results with future stock price data. Its current executable, 'Loaded_Databases.ipynb, when ran with its instructions, can do analysis on the success rates of the analysts compared to what happened.
+
+This program is scripted in Python, involves webscraping Yahoo Finance analyst lxml, creates Pandas Dataframes, and provides some visualizations using matplotlib 
+
 ### Description stock_upgradedowngradeHistory.ipynb
 
 * the database is already created within the folder databases, it isn't important to run this code. This is just a reference of methodology.
